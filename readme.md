@@ -64,7 +64,7 @@ Update the stock of products in the vending machine. Accepts either a single pro
 
 Request Body:
 
-    Single Product:
+Single Product:
 e.g.
 ["A1", "Soda", 1.50, 10]
 
@@ -83,7 +83,7 @@ Update the balance of coins in the machine. Accepts either a single coin entry o
 
 Request Body:
 
-    Single Coin:
+Single Coin:
 e.g
 
 [0.50, 20]
@@ -137,9 +137,9 @@ Request Body:
 
 ## Testing
 From project directory run:
-
+```bash
 pytest tests/
-
+```
 Unit tests will run and results will be returned
 
 ## Improvements/things that I was unable to do in the time given
